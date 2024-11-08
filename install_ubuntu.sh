@@ -1,6 +1,6 @@
 virt-install \
 --name ubuntu-server \
---ram 2048 \
+--ram 4096 \
 --vcpus 2 \
 --disk size=15,bus=virtio \
 --network bridge=br0,model=virtio \
